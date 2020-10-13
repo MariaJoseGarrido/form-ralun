@@ -1,0 +1,86 @@
+/*  importar fuente ralun*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+.main-cointiner{
+  width: 600px;
+  border: solid 1px #ccc;
+  margin: 45px auto;
+}
+
+.container {
+  width: 500px;
+  margin: 5px auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.form-part {
+  margin: 20px 0;
+}
+
+.form-part h2 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 15px;
+}
+
+.text-input {
+  margin-bottom: 13px;
+}
+
+.text-input label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.text-input input,
+.text-input select {
+  padding: 10px 10px;
+  display: block;
+  width: 100%;
+  border: solid 1px #ccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.btn-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-back, #btn-register{
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+#btn-back {
+  background-color: rgb(255, 254, 254);
+  color: rgb(138, 137, 137);
+  border: solid 1px #ccc;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#btn-register {
+  background-color:#0A4C97;
+  color:#fff;
+  border: solid 1px #ccc;
+  font-weight: bold;
+  border-radius: 5px;
+}

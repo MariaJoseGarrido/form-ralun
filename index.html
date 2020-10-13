@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">  <title>Document</title>
+</head>
+
+<body>
+  <div class="main-cointiner">
+    <div class="container">
+      <div class="form-part">
+        <h2>Crear Cuenta de Usuario</h2>
+        <div class="text-input">
+          <label for="email">Nombre Completo</label>
+          <input type="text" name="name" id="" placeholder="Carlos Luis" data-rule="minlen:8"
+            data-msg="Por Favor ingrese nombre completo" required>
+        </div>
+        <div class="text-input">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" data-rule="minlen:5" placeholder="carlos2020@gmail.com" required>
+        </div>
+        <div class="text-input">
+          <label for="number">Número de teléfono</label>
+          <input type="text" name="number" placeholder="+56 123 4567" id="number" data-rule="minlen:8" required>
+        </div>
+        <div class="text-input">
+          <label for="addres">Dirección</label>
+          <input type="text" name="addres" id="" placeholder="Julio Bañados, 1629, Santiago, Chile" data-rule="minlen:8"
+            required>
+        </div>
+        <div class="text-input">
+          <label for="password">Crear contraseña</label>
+          <input type="password" name="password" id="" placeholder="* * * * *" data-rule="minlen:4"
+            data-msg="Por Favor ingresa al menos 5 caracteres" required>
+        </div>
+        <div class="text-input">
+          <label for="password-repeat">Repetir contraseña</label>
+          <input type="password" name="password-repeat" placeholder="* * * * *" id="" data-rule="minlen:4" data-rule="minlen:4"
+            data-msg="Por Favor ingresa al menos 5 caracteres" required>
+        </div>
+        <div class="btn-box">
+          <input type="button" value="Volver" id="btn-back">
+          <input type="button" value="Registarme" id="btn-register">
+        </div>
+      <div>
+    </div>
+  </div>
+
+</body>
+
+</html>
