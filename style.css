@@ -6,7 +6,6 @@
   outline: 0;
 }
 
-
 .main-cointiner{
   width: 600px;
   border: solid 1px #ccc;
@@ -50,7 +49,7 @@
 .text-input select {
   padding: 10px 10px;
   display: block;
-  width: 100%;
+  width:-webkit-fill-available;
   border: solid 1px #ccc;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -84,4 +83,26 @@
   border: solid 1px #ccc;
   font-weight: bold;
   border-radius: 5px;
+}
+
+
+
+
+
+
+p {
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.fas{
+  font-size: 25px;
+  color:#000;
+}
+.fa-plus-circle{
+  color:#0a4c97;
+}
+.title{
+margin-left: -13px;
+font-size: 16px;
+font-family: 'Source Sans Pro', sans-serif !important;
 }
